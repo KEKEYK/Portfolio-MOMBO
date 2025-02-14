@@ -1,0 +1,39 @@
+body {
+	background: black;
+    font-size: 1.5rem;
+}
+
+
+
+header{
+	 line-height: 3rem;
+}
+
+.menu {
+    display: flex;
+    gap: 4rem;
+    color: lightblue;
+    font-size: 1rem;
+     border-bottom: 2px solid white; /* Ajoute un trait blanc */
+    position: sticky; /* Le menu reste collé en haut lors du scroll */
+     top: 0; /* Assure que le menu est bien en haut */
+    z-index: 1000; /* Priorité sur les autres éléments */
+}
+
+
+.contact {
+	color: lightblue;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+img {
+	margin-left: 29rem;
+	margin-top: 4rem;
+}
+
+main {
+	text-align: center;
+}
